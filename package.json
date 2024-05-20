@@ -1,5 +1,6 @@
 {
   "devDependencies": {
     "artillery": "^2.0.12"
-  }
+  },
+  "scripts": { "test:performance": "artillery run --output report.json artillery-config.yml" }
 }
